@@ -147,7 +147,7 @@ wintitle {
 h2 {
 	border-bottom: thin solid;
 	line-height: 1.2;
-	margin-botton: 0;
+	margin-bottom: 0;
 }
 
 dt {
@@ -198,9 +198,10 @@ input.gsc-search-button:focus, input.gsc-search-button:hover {
 }
 
 /* Amy's template overrides */
-.developer-portal-header__logo {
+.developer-portal-header__logo a {
 	position: fixed;
-	top: 3px;
+	top: 6px;
+	height: 35px;
 }
 
 /* Bretts Template Overrides */
