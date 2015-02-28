@@ -6,7 +6,7 @@
     <property name="args.xsl" location="${dita.plugin.com.couchbase.docs.html-draft.dir}/xslt/dita2html.xsl"/>
     <property name="args.css.file" value="base.css"/>
     <property name="args.csspath" value="css"/>
-    <property name="args.devguide" value="no"/>
+    <property name="args.devguide" value="yes"/>
   </target>
 
   <target name="com.couchbase.docs.html-draft">
