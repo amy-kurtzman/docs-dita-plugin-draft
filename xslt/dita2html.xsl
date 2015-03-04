@@ -127,7 +127,10 @@
 					</xsl:choose>-->
 
 									<li class="developer-portal-header__navigation__item">
-										<a href="/index.html">Docs Home</a>
+										<a href="/index.html">Documentation Home</a>
+									</li>
+									<li class="developer-portal-header__navigation__item">
+										<a href="http://developer.couchbase.com/">Developer Portal</a>
 									</li>
 									<li class="developer-portal-header__navigation__item">
 										<a href="http://www.couchbase.com/nosql-databases/downloads"
@@ -136,9 +139,7 @@
 									<li class="developer-portal-header__navigation__item">
 										<a href="http://forums.couchbase.com">Forums</a>
 									</li>
-									<li class="developer-portal-header__navigation__item">
-										<a href="http://docs.couchbase.com/archive-index">Docs Archive</a>
-									</li>
+
 								</ul>
 
 								<div class="developer-portal-header__search">
@@ -200,12 +201,10 @@
 
 						<footer class="developer-portal-footer" role="contentinfo">
 							<p class="legal">
-								<span class="license">© 2011–2015 <b class="company-name">Couchbase</b> All
-									rights reserved.</span>
-								<a href="http://www.couchbase.com/developers">Developer Portal</a>
-								<a href="http://forums.couchbase.com">Forums</a>
-								<a href="http://www.couchbase.com/downloads">Download</a>
-								<a href="http://support.couchbase.com/">Customer Support Login</a>
+								<span class="license">© 2011–2015 <b class="company-name">Couchbase</b>. All rights reserved.</span>
+								<a href="http://support.couchbase.com/">Customer Login</a>
+								<a href="http://www.couchbase.com/terms-of-service">Terms of Service</a>
+								<a href="http://www.couchbase.com/privacy-policy">Privacy Policy</a>
 							</p>
 						</footer>
 					</div>

@@ -204,6 +204,15 @@ input.gsc-search-button:focus, input.gsc-search-button:hover {
 	height: 35px;
 }
 
+.developer-portal-footer p {
+	text-align: center;
+}
+
+.developer-portal-header.docs-home {
+	border-top-color: #ffffff;
+	border-bottom: initial;
+}
+
 /* Bretts Template Overrides */
 .textblock__content ul {
   padding-left: 2.5em;
