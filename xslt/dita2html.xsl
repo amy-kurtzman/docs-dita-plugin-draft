@@ -143,7 +143,23 @@
 									<li class="developer-portal-header__navigation__item">
 										<a href="/index.html">Documentation Home</a>
 									</li>
+									
 									<li class="developer-portal-header__navigation__item">
+										<a href="/archive-index.html">Documentation Archive</a>
+									</li>
+									<li class="developer-portal-header__navigation__item">
+										<a href="http://www.couchbase.com/nosql-databases/downloads">Downloads</a>
+									</li>
+									<li class="developer-portal-header__navigation__item">
+										<a href="http://www.couchbase.com/open-source">Open Source Projects</a>
+									</li>
+									<li class="developer-portal-header__navigation__item">
+										<a href="http://forums.couchbase.com">Forums</a>
+									</li>
+									
+									
+									
+									<!--<li class="developer-portal-header__navigation__item">
 										<a href="http://developer.couchbase.com/">Developer Portal</a>
 									</li>
 									<li class="developer-portal-header__navigation__item">
@@ -152,7 +168,7 @@
 									</li>
 									<li class="developer-portal-header__navigation__item">
 										<a href="http://forums.couchbase.com">Forums</a>
-									</li>
+									</li>-->
 
 								</ul>
 
