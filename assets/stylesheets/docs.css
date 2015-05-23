@@ -1,3 +1,9 @@
+/* JIRA overrides */
+
+.atlwdg-trigger.atlwdg-SUBTLE {
+   margin-right: 20px;
+}
+
 /* DITA overrides */
 
 .developer-portal-content__wrapper table th {
@@ -59,7 +65,7 @@
 }
 
 .filepath {
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .msgph {
@@ -123,12 +129,25 @@ pre {
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
 }
 
+.ph.var {
+	font-style: italic;
+}
+
+.keyword.kwd {
+	font-weight: bold;
+}
+
 .menucascade, .uicontrol {
 	font-weight: bold;
 }
 
 .tablecap {
 	font-weight: bold;
+}
+
+.figcap {
+	font-weight: bold;
+	font-style: italic;
 }
 
 .varname {
@@ -211,6 +230,10 @@ input.gsc-search-button:focus, input.gsc-search-button:hover {
 .developer-portal-header.docs-home {
 	border-top-color: #ffffff;
 	border-bottom: initial;
+}
+
+.developer-portal-logo-grid__item .connector span:before {
+  background-image: url("../images/icons/docs-connector.png");
 }
 
 /* Bretts Template Overrides */
