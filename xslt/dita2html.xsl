@@ -56,7 +56,7 @@
 				<link rel="stylesheet" href="{$OUTRELDIR}/assets/stylesheets/application.css" />
 				<link rel="stylesheet" href="{$OUTRELDIR}/assets/stylesheets/docs.css" />
 				
-				<script type="text/javascript">
+<!--				<script type="text/javascript">
 					var _gaq = _gaq || [];
 					_gaq.push(['_setAccount', 'UA-7763794-10']);
 					_gaq.push(['_setDomainName', '.couchbase.com']);
@@ -68,7 +68,7 @@
 					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 					})();
-				</script>
+				</script>-->
 
 				<!--[if lte IE 8]>
 		<link rel="stylesheet" href="/assets/stylesheets/legacy.css">
@@ -86,8 +86,21 @@
 		<script src="{$OUTRELDIR}/assets/javascripts/polyfills/matchMedia.addListener.js"></script>
 	<![endif]-->
 			</head>
-			<body
-				data-modules="developer-portal-sidebar-navigation developer-portal-versions-navigation">
+			<body data-modules="developer-portal-sidebar-navigation developer-portal-versions-navigation">
+
+
+<xsl:text disable-output-escaping="yes"><![CDATA[
+	<!-- Google Tag Manager -->
+				<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVPNN2"
+					height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+					j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+					'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+					})(window,document,'script','dataLayer','GTM-MVPNN2');</script>
+				<!-- End Google Tag Manager -->
+				]]></xsl:text>
+				
 
 				<header class="developer-portal-header" role="banner">
 					<div class="layout-wrapper">
